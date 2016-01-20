@@ -18,7 +18,7 @@
 
 ]>
 
-<rfc ipr="trust200902" docName="draft-iab-rfc-framework-01" category="info">
+<rfc ipr="trust200902" docName="draft-iab-rfc-framework-02" category="info">
 
 <?rfc toc="yes"?>
 
@@ -72,9 +72,7 @@
 </section>
 <section anchor="problem-statement" title="Problem Statement">
 
-<t>When the first RFCs were published 45 years ago, the tools to create and read RFCs were limited.  Distribution was originally on paper via postal mail to people living in the United States.</t>
-
-<t>Today, there are nearly three billion people connected to the Internet, and individuals from 45 countries or more regularly attending IETF meetings over the last 5 years <xref target="ISTATS"/>.  The Internet is now global, and while the world has changed from when the first RFCs were published, the Series remains critical to defining protocols, standards, best practices, and more for this global network that continues to grow.  In order to make RFCs easily viewable to the largest number of people possible, across a wide array of devices, and to respect the diversity of authors and reference materials, it is time to update the tightly prescribed format of the RFC Series.</t>
+<t>There are nearly three billion people connected to the Internet, and individuals from 45 countries or more regularly attending IETF meetings over the last 5 years <xref target="ISTATS"/>.  The Internet is now global, and while the world has changed from when the first RFCs were published, the Series remains critical to defining protocols, standards, best practices, and more for this global network that continues to grow.  In order to make RFCs easily viewable to the largest number of people possible, across a wide array of devices, and to respect the diversity of authors and reference materials, it is time to update the tightly prescribed format of the RFC Series.</t>
 
 <t>All changes to the format of the RFC Series must consider the requirements of a wide set of communities, over an extended length of time.  For example, existing authors and implementers, lawyers that argue Intellectual Property Rights (IPR), educators, managers, and policy-makers that need to know what to list in potential RFPs for their organizations, all have preferences and requirements for their specific needs.  The immediate needs of today's communities must be balanced with the needs for long-term archival storage.  </t>
 

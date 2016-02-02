@@ -10,7 +10,7 @@
 <!ENTITY I-D.iab-xml2rfc SYSTEM "http://xml2rfc.ietf.org/public/rfc/bibxml3/reference.I-D.iab-xml2rfc.xml">
 <!ENTITY I-D.iab-xml2rfcv2 SYSTEM "http://xml2rfc.ietf.org/public/rfc/bibxml3/reference.I-D.iab-xml2rfcv2.xml">
 <!ENTITY I-D.iab-svg-rfc SYSTEM "http://xml2rfc.ietf.org/public/rfc/bibxml3/reference.I-D.iab-svg-rfc.xml">
-<!ENTITY I-D.hansen-rfc-use-of-pdf SYSTEM "http://xml2rfc.ietf.org/public/rfc/bibxml3/reference.I-D.hansen-rfc-use-of-pdf.xml">
+<!ENTITY I-D.iab-rfc-use-of-pdf SYSTEM "http://xml2rfc.ietf.org/public/rfc/bibxml3/reference.I-D.iab-rfc-use-of-pdf.xml">
 <!ENTITY I-D.iab-html-rfc SYSTEM "http://xml2rfc.ietf.org/public/rfc/bibxml3/reference.I-D.iab-html-rfc.xml">
 <!ENTITY I-D.iab-rfc-plaintext SYSTEM "http://xml2rfc.ietf.org/public/rfc/bibxml3/reference.I-D.iab-rfc-plaintext.xml">
 <!ENTITY I-D.iab-rfc-nonascii SYSTEM "http://xml2rfc.ietf.org/public/rfc/bibxml3/reference.I-D.iab-rfc-nonascii.xml">
@@ -18,7 +18,7 @@
 
 ]>
 
-<rfc ipr="trust200902" docName="draft-iab-rfc-framework-02" category="info">
+<rfc ipr="trust200902" docName="draft-iab-rfc-framework-03" category="info">
 
 <?rfc toc="yes"?>
 
@@ -33,7 +33,7 @@
       </address>
     </author>
 
-    <date year="2016" month="January" day="20"/>
+    <date year="2016" month="February" day="2"/>
     
     <area>General</area>
 
@@ -175,13 +175,13 @@
   <t>The body of the document will use a subset of HTML. The documents will include CSS for default visual presentation; it can be overwritten by a local CSS file.</t> 
   <t>SVG is supported and will be included in the HTML file.</t>
   <t>Text will be reflowable.</t>
-  <t>JavaScript will be supported only as an additional option for presentation of specific publication formats to provide up-to-date links to post-publication metadata, such as errata or obsoletion.  Documents will be complete and readable as at time of publication, when JavaScript is disabled.</t>
+  <t>JavaScript will be supported on a limited basis.  It will not be permitted to overwrite or change any text present in the rendered html.  It may, on a limited basis, add additional text that provides post-publication metadata or pointers if warranted.  All such text will be clearly marked as additional.</t>
 </list></t>
 
 
 </section>
 <section anchor="pdf" title="PDF">
-<t><xref target="I-D.hansen-rfc-use-of-pdf"/> - Describes the tags and profiles that will be used to create the new PDF format, including both the internal structure and the visible layout of the file.  A review of the different versions of PDF is offered, with a recommendation of what PDF standard should apply to RFCs.</t>
+<t><xref target="I-D.iab-rfc-use-of-pdf"/> - Describes the tags and profiles that will be used to create the new PDF format, including both the internal structure and the visible layout of the file.  A review of the different versions of PDF is offered, with a recommendation of what PDF standard should apply to RFCs.</t>
 
 <t>Key points regarding the PDF output:</t>
 
@@ -308,7 +308,7 @@
 &I-D.iab-xml2rfcv2;
 &I-D.iab-svg-rfc;
 &I-D.iab-html-rfc;
-&I-D.hansen-rfc-use-of-pdf;
+&I-D.iab-rfc-use-of-pdf;
 &I-D.iab-rfc-plaintext;
 &I-D.iab-rfc-nonascii;
 &I-D.iab-rfc-css;

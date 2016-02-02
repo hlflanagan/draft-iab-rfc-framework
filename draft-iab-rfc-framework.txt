@@ -102,10 +102,10 @@ Table of Contents
    12. Security Considerations . . . . . . . . . . . . . . . . . . .  12
    13. Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .  12
    14. Appendix - Change log . . . . . . . . . . . . . . . . . . . .  12
-     14.1.  draft-iab-rfc-framework-00 to -01  . . . . . . . . . . .  12
-   15. References  . . . . . . . . . . . . . . . . . . . . . . . . .  12
-     15.1.  Normative References . . . . . . . . . . . . . . . . . .  12
-     15.2.  Informative References . . . . . . . . . . . . . . . . .  13
+     14.1.  draft-iab-rfc-framework-02 to -03  . . . . . . . . . . .  12
+     14.2.  draft-iab-rfc-framework-01 to -02  . . . . . . . . . . .  12
+     14.3.  draft-iab-rfc-framework-00 to -01  . . . . . . . . . . .  12
+   15. References  . . . . . . . . . . . . . . . . . . . . . . . . .  13
 
 
 
@@ -114,6 +114,8 @@ Flanagan                 Expires August 5, 2016                 [Page 2]
 Internet-Draft            RFC Format Framework             February 2016
 
 
+     15.1.  Normative References . . . . . . . . . . . . . . . . . .  13
+     15.2.  Informative References . . . . . . . . . . . . . . . . .  14
    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .  15
 
 1.  Introduction
@@ -160,8 +162,6 @@ Internet-Draft            RFC Format Framework             February 2016
    largest number of people possible, across a wide array of devices,
    and to respect the diversity of authors and reference materials, it
    is time to update the tightly prescribed format of the RFC Series.
-
-
 
 
 
@@ -646,7 +646,15 @@ Internet-Draft            RFC Format Framework             February 2016
 
    To be removed by RFC Editor
 
-14.1.  draft-iab-rfc-framework-00 to -01
+14.1.  draft-iab-rfc-framework-02 to -03
+
+   HTML output: clarified expectations around use of JavaScript.
+
+14.2.  draft-iab-rfc-framework-01 to -02
+
+   Introduction: Removed some unnecessary history.
+
+14.3.  draft-iab-rfc-framework-00 to -01
 
    Decision Making Process: noted taht other XML schemas and
    vocabularies were considered by the design team
@@ -656,14 +664,6 @@ Internet-Draft            RFC Format Framework             February 2016
    HTML: clarified that JavaScript should not impact readability of the
    document as it looked at time of publication
 
-15.  References
-
-15.1.  Normative References
-
-   [RFC6949]  Flanagan, H. and N. Brownlee, "RFC Series Format
-              Requirements and Future Development", RFC 6949,
-              DOI 10.17487/RFC6949, May 2013,
-              <http://www.rfc-editor.org/info/rfc6949>.
 
 
 
@@ -673,6 +673,15 @@ Flanagan                 Expires August 5, 2016                [Page 12]
 
 Internet-Draft            RFC Format Framework             February 2016
 
+
+15.  References
+
+15.1.  Normative References
+
+   [RFC6949]  Flanagan, H. and N. Brownlee, "RFC Series Format
+              Requirements and Future Development", RFC 6949,
+              DOI 10.17487/RFC6949, May 2013,
+              <http://www.rfc-editor.org/info/rfc6949>.
 
    [I-D.iab-xml2rfc]
               Hoffman, P., "The "xml2rfc" version 3 Vocabulary", draft-
@@ -709,6 +718,18 @@ Internet-Draft            RFC Format Framework             February 2016
               Flanagan, H., "CSS Requirements for RFCs", draft-iab-rfc-
               css-00 (work in progress), January 2016.
 
+
+
+
+
+
+
+
+Flanagan                 Expires August 5, 2016                [Page 13]
+
+Internet-Draft            RFC Format Framework             February 2016
+
+
 15.2.  Informative References
 
    [RFC4845]  Daigle, L., Ed. and Internet Architecture Board, "Process
@@ -720,15 +741,6 @@ Internet-Draft            RFC Format Framework             February 2016
               Headers, and Boilerplates", RFC 5741,
               DOI 10.17487/RFC5741, December 2009,
               <http://www.rfc-editor.org/info/rfc5741>.
-
-
-
-
-
-Flanagan                 Expires August 5, 2016                [Page 13]
-
-Internet-Draft            RFC Format Framework             February 2016
-
 
    [RFC6635]  Kolkman, O., Ed., Halpern, J., Ed., and IAB, "RFC Editor
               Model (Version 2)", RFC 6635, DOI 10.17487/RFC6635, June
@@ -767,6 +779,13 @@ Internet-Draft            RFC Format Framework             February 2016
               <https://events.nordu.net/display/NORDU2014/
               BoF%27s+and+side+meetings>.
 
+
+
+Flanagan                 Expires August 5, 2016                [Page 14]
+
+Internet-Draft            RFC Format Framework             February 2016
+
+
    [RFC-INTEREST]
               RFC Editor, "rfc-interest -- A list for discussion of the
               RFC series and RFC Editor functions.", n.d.,
@@ -776,15 +795,6 @@ Internet-Draft            RFC Format Framework             February 2016
    [RSOC]     IAB, "RFC Editor Program: The RSOC", n.d.,
               <http://www.iab.org/activities/programs/
               rfc-editor-program/>.
-
-
-
-
-
-Flanagan                 Expires August 5, 2016                [Page 14]
-
-Internet-Draft            RFC Format Framework             February 2016
-
 
    [TNC2014]  Flanagan, H., "IETF Update - 'What's Hot?' - RFC Update",
               n.d., <https://tnc2014.terena.org/core/presentation/84>.
@@ -806,16 +816,6 @@ Author's Address
 
    Email: rse@rfc-editor.org
    URI:   http://orcid.org/0000-0002-2647-2220
-
-
-
-
-
-
-
-
-
-
 
 
 

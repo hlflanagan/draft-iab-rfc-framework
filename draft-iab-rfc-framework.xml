@@ -290,6 +290,14 @@
 
 <section anchor="changelog" title="Appendix - Change log">
 <t>To be removed by RFC Editor</t>
+<section anchor="change03" title="draft-iab-rfc-framework-02 to -03">
+<t>HTML output: clarified expectations around use of JavaScript.
+</t>
+</section>
+<section anchor="change02" title="draft-iab-rfc-framework-01 to -02">
+<t>Introduction: Removed some unnecessary history.
+</t>
+</section>
 <section anchor="change01" title="draft-iab-rfc-framework-00 to -01">
 <t>Decision Making Process: noted taht other XML schemas and vocabularies were considered by the design team</t>
 <t>XML for RFCs: "boilerplate at time of publication"</t>

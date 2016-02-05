@@ -18,7 +18,7 @@
 
 ]>
 
-<rfc ipr="trust200902" docName="draft-iab-rfc-framework-03" category="info">
+<rfc ipr="trust200902" docName="draft-iab-rfc-framework-04" category="info">
 
 <?rfc toc="yes"?>
 
@@ -33,7 +33,7 @@
       </address>
     </author>
 
-    <date year="2016" month="February" day="2"/>
+    <date year="2016" month="February" day="5"/>
     
     <area>General</area>
 
@@ -62,7 +62,7 @@
 
 <t><xref target="RFC6949"/>, "RFC Series Format Requirements and Future Development," discussed the need for additional features within RFCs such as non-ASCII characters to respect author names, more advanced artwork than ASCII art, and documents that could display properly on a wide variety of devices.  Based on the discussions with the IETF community as well as other communities of interest, the RFC Series Editor decided to explore a change to the format of the Series <xref target="XML-ANNOUNCE"/>.  This document serves as the framework that describes the problems being solved and summarizes the documents created to-date that capture the specific requirements for each aspect of the change in format.  </t>
 
-<t>Key changes to the publication of RFCs are highlighted, and a transition plan that will take the Series from a plain-text, ASCII-only format to the new formats is described <xref target="RFC-INTEREST"/>.</t>
+<t>Key changes to the publication of RFCs are highlighted, and a transition plan that will take the Series from a plain-text, ASCII-only format to the new formats is described on the rfc-interest mailing list <xref target="RFC-INTEREST"/>.</t>
 
 <t>This document is concerned with the production of RFCs, focusing on the published formats. It does not address any changes to the processes each stream uses to develop and review their submissions (specifically, how Internet-Drafts will be developed).  While I-Ds have a similar set of issues and concerns, directly addressing those issues for I-Ds will be discussed within each document stream.</t>
 
@@ -151,7 +151,7 @@
   <t>The XML file will not contain any xml2rfc v3 vocabulary elements or attributes that have been marked deprecated. </t>
   <t>A Document Type Definition (DTD) will no longer be used. The grammar will be defined using RelaxNG.</t>
   <t>The final XML file will contain, verbatim, the appropriate boilerplate as applicable at time of publication specified by RFC 5741 or its successors <xref target="RFC5741"/>.</t>
-  <t>The final XML will be self-contained. For instance, all features that reference externally-defined input will be expanded. This includes all uses of xinclude, src attributes (such as in &lt;artwork&gt; or &lt;sourcecode&gt; elements), include-like processing instructions, and externally defined entities.</t>
+  <t>The final XML will be self-contained with all the information known at publication time. For instance, all features that reference externally-defined input will be expanded. This includes all uses of xinclude, src attributes (such as in &lt;artwork&gt; or &lt;sourcecode&gt; elements), include-like processing instructions, and externally defined entities.</t>
   <t>The final XML will not contain comments or processing instructions.</t>
   <t>The final XML will not contain src attributes for &lt;artwork&gt; or 
 &lt;sourcecode&gt; elements.</t>
@@ -171,7 +171,7 @@
 <t>Key points regarding the HTML output:</t>
 
 <t><list style='symbols'>
-  <t>The HTML will not be derived from the plain-text publication format.</t>
+  <t>The HTML will be rendered from the XML file; it will not be derived from the plain-text publication format.</t>
   <t>The body of the document will use a subset of HTML. The documents will include CSS for default visual presentation; it can be overwritten by a local CSS file.</t> 
   <t>SVG is supported and will be included in the HTML file.</t>
   <t>Text will be reflowable.</t>
@@ -186,7 +186,7 @@
 <t>Key points regarding the PDF output:</t>
 
 <t><list style='symbols'>
-  <t>The PDF file will not be derived from the plain-text publication format.</t>
+  <t>The PDF file will be rendered from the XML file; it will not be derived from the plain-text publication format.</t>
   <t>The PDF publication format will conform to the PDF/A-3 standard and will embed the canonical XML source.</t>
   <t>The PDF will look more like the HTML publication format than the plain-text publication format.</t>
   <t>The PDF will include a rich set of tags and metadata within the document</t>
@@ -259,7 +259,7 @@
 
 <t>Success will be measured by the closure of all bugs which had been identified by the RPC and the Tools Development team as fatal and consensus on the readiness of the XML vocabulary and final XML files for publication.  The actual rendering engine can go through further review and iteration, as the publication formats may be republished as needed.</t>
 
-<t>Authors are not required to submit their approved drafts in an XML format, though they are strongly encouraged to do so; plain-text will also remain an option for the foreseeable future.  However, documents submitted as plain-text cannot include such features as SVG artwork.</t>
+<t>Authors are not required to submit their approved drafts in an XML format, though they are strongly encouraged to do so; plain-text will also remain an option for the foreseeable future.  However, documents submitted as plain-text cannot include such features as SVG artwork. The RPC will generate an XML file if necessary for basic processing and subsequent rendering into the approved output formats.</t>
 
 <t>A known risk at this point of the transition is the difficulty in quantifying the resources required from the RPC.  This phase will require more work on the part of the RPC to support both old and new publication processes for at least six months.  There is potential for confusion as consumers of RFCs find some documents published at this time with a full set of outputs, while other documents only have plain text.  There may be a delay in publication as new bugs are found that must be fixed before the files can be converted into the canonical format and associated publication formats.</t>
 
@@ -290,6 +290,10 @@
 
 <section anchor="changelog" title="Appendix - Change log">
 <t>To be removed by RFC Editor</t>
+<section anchor="change04" title="draft-iab-rfc-framework-03 to -04">
+<t>Introduction: editorial changes</t>
+<t>Clarified that submitted plain text will be converted to XML by the RPC; the XML will be used to render all output formats. </t>
+</section>
 <section anchor="change03" title="draft-iab-rfc-framework-02 to -03">
 <t>HTML output: clarified expectations around use of JavaScript.
 </t>

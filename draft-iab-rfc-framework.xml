@@ -18,7 +18,7 @@
 
 ]>
 
-<rfc ipr="trust200902" docName="draft-iab-rfc-framework-05" category="info">
+<rfc ipr="trust200902" docName="draft-iab-rfc-framework-06" category="info">
 
 <?rfc toc="yes"?>
 
@@ -33,7 +33,7 @@
       </address>
     </author>
 
-    <date year="2016" month="June" day="21"/>
+    <date year="2016" month="June" day="23"/>
     
     <area>General</area>
 
@@ -157,7 +157,7 @@
 &lt;sourcecode&gt; elements.</t>
 </list></t>
 
-<t><xref target="RFC7749"/> Describes the xml2rfc v2 vocabulary.  While in wide use today, this vocabulary had not been formally documented.  In order to understand what needed to change in the vocabulary to allow for a more simple experience and additional features for authors, the current vocabulary needed to be fully described.  This document, when published, will be obsoleted by the RFC published from draft-iab-xml2rfc.</t>
+<t><xref target="RFC7749"/> describes the xml2rfc v2 vocabulary.  While in wide use today, this vocabulary previously had not been formally documented.  In order to understand what needed to change in the vocabulary to allow for a more simple experience and additional features for authors, the current vocabulary needed to be fully described.  This document will be obsoleted by the RFC published from draft-iab-xml2rfc.</t>
 
 <t><xref target="I-D.iab-xml2rfc"/> Describes the xml2rfc v3 vocabulary.  The design goals in this vocabulary were to make the vocabulary more intuitive for authors, and to expand the features to support the changes being made in the publication process.  This draft, when published, will obsolete the RFC 7749.</t>
 
@@ -292,6 +292,9 @@
 
 <section anchor="changelog" title="Appendix - Change log">
 <t>To be removed by RFC Editor</t>
+<section anchor="change06" title="draft-iab-rfc-framework-05 to -06">
+<t>xml2rfcv2: minor clarifications</t>
+</section>
 <section anchor="change05" title="draft-iab-rfc-framework-04 to -05">
 <t>Introduction: minor clarifications</t>
 <t>Updated references</t>
